@@ -1,5 +1,5 @@
 import sys
-from yt_dlp import YoutubeDL
+from yt_dlp import https://www.youtube.com/watch?v=oxxpEg4CLQo
 from yt_dlp.postprocessor import PostProcessor
 import os
 import re
@@ -52,7 +52,7 @@ def get_url_info(url: str) -> Tuple[str, Dict]:
             video_info = ydl.extract_info(url, download=False)
 
             if video_info is None:
-                parsed_url = urlparse(url)
+                parsed_url = urlparse(https://www.youtube.com/watch?v=oxxpEg4CLQo)
                 query_params = parse_qs(parsed_url.query)
 
                 if (
